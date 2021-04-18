@@ -1,0 +1,30 @@
+{
+  "name": "url-minifier",
+  "version": "1.0.0",
+  "description": "A node application to create minified links to websites and save them to Database.",
+  "main": "server.js",
+  "scripts": {
+    "dev" : "nodemon server.js",
+    "start": " node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashchouhan16/URL-Minifier"
+  },
+  "bugs": {
+    "url": "https://github.com/akashchouhan16/URL-Minifier/issues"
+  },
+  "homepage": "https://github.com/akashchouhan16/URL-Minifier#readme",
+  "author": "Akash Chouhan <akash.c1500@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}

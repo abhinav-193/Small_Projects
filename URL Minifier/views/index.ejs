@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Minifier</title>
+    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0209c22901.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h4 class="text-white">URL Minifier</h4>
+          <span class="text-muted">Created by &copy; Akash Chouhan</span>
+          <span class="test-muted"
+            ><a
+              href="https://github.com/akashchouhan16"
+              target="_blank"
+              style="color: whitesmoke"
+              ><i class="fab fa-github tab1"></i
+            ></a>
+            <a
+              href="https://twitter.com/Akash_Chouhan_ "
+              target="_blank"
+              style="color: rgb(22, 176, 223); text-decoration: none"
+            >
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/akashchouhan16/"
+              target="_blank"
+              style="color: rgb(248, 87, 87); text-decoration: none"
+              ><i class="fab fa-instagram"></i></a
+          ></span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+    <div
+      class="container"
+      style="
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      "
+    >
+      <form action="/shortUrls" method="POST" class="my-4 form-inline">
+        <label for="fullUrl" class="sr-only">Url</label>
+        <input
+          type="text"
+          placeholder="Enter the Url"
+          name="fullUrl"
+          id="fullUrl"
+          required
+          class="form-control mr-2 col"
+        />
+        <button type="submit" class="btn btn-info">
+          <i class="fas fa-poo-storm" style="padding: 5%"></i>Minify!
+        </button>
+      </form>
+
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr class="alert alert-secondary navbar-dark">
+            <th>Full URL</th>
+            <th>Minfied URL</th>
+            <th>Visits</th>
+          </tr>
+        </thead>
+        <tbody class="">
+          <% shortUrls.forEach(shortUrl =>{ %>
+          <tr>
+            <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
+            <td>
+              <a href="<%= shortUrl.short%>" target="_blank"
+                ><%= shortUrl.short%></a
+              >
+            </td>
+            <td><%= shortUrl.clicks %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- CDN for Frontend -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
