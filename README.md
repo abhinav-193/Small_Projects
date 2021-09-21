@@ -21,4 +21,4 @@ MSAC KIIT's official repository to submit minor GUI projects.
 
 ## Contact Info
 
-Visit **[MSAC Official](https://msackiit.tech/ "Visit Website")** for more info.
+Visit **[MSC Official](https://msackiit.tech/ "Visit Website")** for more info.
