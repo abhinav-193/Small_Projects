@@ -1,14 +1,14 @@
 <img src="./utils/MSAC.jpg" width="110px">
 <!-- WASSSUPP :) -->
 
-# MSAC Projects
+# MSC Projects
 
-MSAC KIIT's official repository to submit minor GUI projects.
+MSC KIIT's official repository to submit minor GUI projects.
 
 ## Projects
 
-- **[Desktop Weather App](https://github.com/MSAC-KIIT/Small_Projects/tree/master/Sagnik%20Ghosh/Desktop-Weather-App "View Project")**
-- **[URL Minifier](https://github.com/akashchouhan16/URL-Minifier "View Project")**
+- **[Desktop Weather App](https://github.com/MSCKIIT/Small_Projects/tree/master/Desktop-Weather-App "View Project")**
+- **[URL Minifier](https://github.com/MSCKIIT/Small_Projects/tree/master/URL%20Minifier "View Project")**
 
 ---
 
