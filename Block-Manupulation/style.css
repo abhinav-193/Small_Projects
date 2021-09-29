@@ -1,0 +1,97 @@
+body
+{
+    margin-left: 60px;
+    padding: 20px 0 0 20px;
+}
+.block
+{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top,#333 0%,#666 30%, #333 100%);
+    box-shadow: inset 2px 2px 5px 2px #333;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-left: 5px;
+}
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.vertical
+{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.vertical input
+{
+   transform: rotate(90deg);
+   width: 75px;
+}
+.vertical label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75px;
+}
+.horizontal
+{
+    width: 100px;
+    margin: 0 auto;
+}    
+.horizontal input
+{
+    width: 100px;
+}
+.horizontal label
+{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.center
+{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ok-shape
+{
+    margin-top: 10px;
+}
+.hex-container
+{
+   margin: 40px auto 0;
+    width: 100px;
+}
+#hex
+{
+    width: 80px;
+}
+.rgba-container 
+{
+    width: 100px;
+    margin: 0 auto;
+}
+.rgba-container input
+{
+    width: 80px;
+}
+.container{
+     margin-top: 20px;
+}
+#block
+{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
