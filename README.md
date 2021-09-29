@@ -11,6 +11,7 @@ MSC KIIT's official repository to submit minor GUI projects.
 - **[URL Minifier](https://github.com/MSCKIIT/Small_Projects/tree/master/URL%20Minifier "View Project")**
 - **[Beginner JS quiz](https://github.com/MSCKIIT/Small_Projects/tree/master/javascript-quiz-main "View Project")**
 - **[KnowU Flutter Personality Test App](https://github.com/bhask4r/KnowU-Personality-App "View Project")**
+- **[Dice Game](https://github.com/MSCKIIT/Small_Projects/tree/master/DiceGame "View Project")**
 
 ---
 
@@ -22,6 +23,7 @@ MSC KIIT's official repository to submit minor GUI projects.
 - [Sagnik Ghosh](https://github.com/sagnikghoshcr7 "View Profile")
 - [Anwesha Pati](https://github.com/innatepanda "View Profile")
 - [Bhaskar Gupta](https://github.com/bhask4r "View Profile")
+- [Atig Purohit](https://github.com/AtigPurohit "View Profile")
 
 ## Contact Info
 
