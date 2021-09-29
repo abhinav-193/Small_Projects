@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+       <div class="block">
+           <h3 class="block-heading">Position Y</h3>
+           <div class="wrapper vertical">
+               <input type="range" name="" id="pos-y" min="0" max="600" value="0">
+               <label for="pos-y">
+                  <span>0</span>
+                  <span>600</span>
+               </label>
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">Position X</h3>
+           <div class="wrapper horizontal">
+             <label for="pos-x">
+                <span>0</span>
+                <span>800</span>
+              </label>
+              <input type="range" name="" id="pos-x" min="0" max="600" value="0">
+             
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">Size</h3>
+           <div class="wrapper horizontal">
+            <label for="size">
+                <span>0</span>
+                <span>2</span>
+             </label>
+             <input type="range" name="" id="size" min="0" max="2" step="0.1">
+             
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">Opacity</h3>
+           <div class="wrapper horizontal">
+            <label for="opac">
+                <span>0</span>
+                <span>1</span>
+             </label>
+            <input type="range" name="" id="opac" min="0" max="1" step="0.01" value="1">
+           
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">Shape Type</h3>
+           <div class="wrapper center">
+               <select name="" id="shape-select">
+                   <option value="1">Square</option>
+                   <option value="2">Cricle</option>
+                   <option value="3">Rhombus</option>
+               </select>
+               <button id="ok-shape">OK</button>
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">HEX</h3>
+           <div class="wrapper hex-container">
+          
+             <label for="hex">#</label>
+             <input type="text" name="" id="hex">
+           </div>
+       </div>
+       <div class="block">
+           <h3 class="block-heading">RGBA</h3>
+           <div class="wrapper rgba-container">
+               <input type="range" name="" id="rgba-r" min="0" max="255" value="255">
+               <label for="rgba-r">r</label>
+               <input type="range" name="" id="rgba-g" min="0" max="255" value="0">
+               <label for="rgba-g">g</label>
+               <input type="range" name="" id="rgba-b" min="0" max="255" value="0">
+               <label for="rgba-b">b</label>
+               <input type="range" name="" id="rgba-a" min="0" max="255" value="1">
+               <label for="rgba-a">a</label>
+           </div>
+       </div>
+    </div>
+    <div class="container">
+         <div id="block"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
