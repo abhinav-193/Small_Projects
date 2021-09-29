@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1052546833119",
+    "project_id": "knowu-dcb05",
+    "storage_bucket": "knowu-dcb05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052546833119:android:6bc2af79794148202ba76a",
+        "android_client_info": {
+          "package_name": "nezzak.studio.project_open_jung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052546833119-et8figug3r4ij7jf04kem8fu7kejeb3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3u51jOuIBVrD73g_HL1jvenQBBf9a374"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052546833119-et8figug3r4ij7jf04kem8fu7kejeb3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
