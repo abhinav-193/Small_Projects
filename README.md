@@ -9,6 +9,7 @@ MSC KIIT's official repository to submit minor GUI projects.
 
 - **[Desktop Weather App](https://github.com/MSCKIIT/Small_Projects/tree/master/Desktop-Weather-App "View Project")**
 - **[URL Minifier](https://github.com/MSCKIIT/Small_Projects/tree/master/URL%20Minifier "View Project")**
+- **[Beginner JS quiz](https://github.com/MSCKIIT/Small_Projects/tree/master/javascript-quiz-main "View Project")**
 
 ---
 
@@ -18,6 +19,7 @@ MSC KIIT's official repository to submit minor GUI projects.
 - [Adarsh Pandey](https://github.com/adarsh01-debug "View Profile")
 - [Akash Chouhan](https://github.com/akashchouhan16 "View Profile")
 - [Sagnik Ghosh](https://github.com/sagnikghoshcr7 "View Profile")
+- [Anwesha Pati](https://github.com/innatepanda "View Profile")
 
 ## Contact Info
 
