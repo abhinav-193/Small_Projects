@@ -3,7 +3,16 @@
 
 # MSC Projects
 
-MSC KIIT's official repository to submit minor GUI projects.
+![WhatsApp Image 2021-09-30 at 8 14 08 PM](https://user-images.githubusercontent.com/67187442/135521203-cc0a1a39-8791-4e1e-9e60-da74672c9ccd.jpeg)
+
+
+
+MSC KIIT's official repository to submit minor GUI projects. This year as always MSC is also participating and celebrating open source through Hacktober Fest. 
+So, please join us at MSC with this repo and celebrate Open Source and Hacktober Fest. 
+
+Want a very simple explanation on how to generate a PR?
+
+#### Fork -> Clone -> Push your code -> Create PR
 
 ## Projects
 
@@ -27,4 +36,4 @@ MSC KIIT's official repository to submit minor GUI projects.
 
 ## Contact Info
 
-Visit **[MSC Official](https://msackiit.tech/ "Visit Website")** for more info.
+Visit **[MSC Official](https://www.instagram.com/msckiit/ "Instagram")** for more info.
