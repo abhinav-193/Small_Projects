@@ -1,0 +1,18 @@
+ body{
+     padding-top: 100px;
+     text-align: center;
+     background-color: rgb(71, 71, 165);
+ }
+ h1{
+     color:darksalmon;
+ }
+ button{
+     padding: 30px;
+     color:darkslateblue;
+     background-color: yellow;
+     font-style: italic;
+     text-decoration: solid;
+ }
+ img{
+     margin-bottom: 100px;
+ }
