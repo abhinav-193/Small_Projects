@@ -33,6 +33,7 @@ Want a very simple explanation on how to generate a PR?
 - [Anwesha Pati](https://github.com/innatepanda "View Profile")
 - [Bhaskar Gupta](https://github.com/bhask4r "View Profile")
 - [Atig Purohit](https://github.com/AtigPurohit "View Profile")
+- [Nishant Giri](https://github.com/nishant-giri "View Profile")
 
 ## Contact Info
 
