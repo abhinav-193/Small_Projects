@@ -53,30 +53,31 @@ If you have any doubts regarding "How to create your first PR?", then checkout t
 
 ## Hacktoberfest 2021 | FAQs
    
-- **What is Open Source?**
-<br> Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish.
 
-- **What is Hacktoberfest?**
-<br> Hacktoberfest is a month-long global celebration of open source software run by DigitalOcean in partnership with Intel, AppWrite, and DeepSource, with a strong focus on encouraging contributions to open source projects.
-   
-- **What are Pull Requests?**
-<br> Pull requests are proposed code changes you can submit to a branch in a repository on GitHub/GitLab. Once submitted, a project maintainer will review and discuss the changes before they become final.
+**<details><summary>What is Open Source?</summary>**
+<br>Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish.</details>
 
-- **What is GitHub & GitLab?**
-<br> GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
-<br> GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open source license, developed by GitLab Inc.
+**<details><summary>What is Hacktoberfest?</summary>**
+<br>Hacktoberfest is a month-long global celebration of open source software run by DigitalOcean in partnership with Intel, AppWrite, and DeepSource, with a strong focus on encouraging contributions to open source projects.</details>
    
-- **Where do I register?**
-<br> The registrations are open, so register yourself on the official website of **[Hacktoberfest 2021](https://hacktoberfest.digitalocean.com)** with your GitHub Account.
+**<details><summary>What are Pull Requests?</summary>**
+<br>Pull requests are proposed code changes you can submit to a branch in a repository on GitHub/GitLab. Once submitted, a project maintainer will review and discuss the changes before they become final.</details>
+
+**<details><summary>What is GitHub & GitLab?</summary>**
+<br>GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+<br>GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open source license, developed by GitLab Inc.</details>
    
-- **What is the last date to enroll myself for the Hacktoberfest 2021?**
-<br> You can sign up anytime between October 1 to October 31, 2021. Pull Requests created between October 1 and October 31 will count, regardless of when you register for Hacktoberfest.
+**<details><summary>Where do I register?</summary>**
+<br>The registrations are open, so register yourself on the official website of **[Hacktoberfest 2021](https://hacktoberfest.digitalocean.com)** with your GitHub Account.</details>
    
-- **What do I need to learn before contributing to these Projects?**
-<br> You need to know nothing in order to understand this. But basic knowledge of development and basic coding in any language will help you move forward in this field. And **MSC KIIT** will be organizing sessions to help everyone throughout this process.
+**<details><summary>What is the last date to enroll myself for the Hacktoberfest 2021?</summary>**
+<br>You can sign up anytime between October 1 to October 31, 2021. Pull Requests created between October 1 and October 31 will count, regardless of when you register for Hacktoberfest.</details>
    
-- **What do I gain after completing 4 PRs?** 
-<br> You may receive a limited edition **Hacktoberfest T-shirt** in addition to the information (and fun) you'll gain.
+**<details><summary>What do I need to learn before contributing to these Projects?</summary>**
+<br>You need to know nothing in order to understand this. But basic knowledge of development and basic coding in any language will help you move forward in this field. And **MSC KIIT** will be organizing sessions to help everyone throughout this process.</details>
+   
+**<details><summary>What do I gain after completing 4 PRs?</summary>** 
+<br>You may receive a limited edition **Hacktoberfest T-shirt** in addition to the information (and fun) you'll gain.</details>
 
 ---
    
@@ -112,6 +113,8 @@ If you have any doubts regarding "How to create your first PR?", then checkout t
 - [Mayank Jain](https://github.com/mayankjain25 "View Profile")
 - [Nishant Giri](https://github.com/nishant-giri "View Profile")
 - [Rakshit Agarwal](https://github.com/ "View Profile")
+- [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
+- [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
 
 ---
    
@@ -122,19 +125,6 @@ If you have any doubts regarding "How to create your first PR?", then checkout t
 - [Arnab Dan](https://github.com/arnab8335 "View Profile")
 - [Subhayan Das](https://github.com/SubhayanDas08 "View Profile")
    
----
-   
-## Contributors
-
-- [Abhinav Mukherjee](https://github.com/abhinav-193 "View Profile")
-- [Adarsh Pandey](https://github.com/adarsh01-debug "View Profile")
-- [Akash Chouhan](https://github.com/akashchouhan16 "View Profile")
-- [Anwesha Pati](https://github.com/innatepanda "View Profile")
-- [Atig Purohit](https://github.com/AtigPurohit "View Profile")
-- [Bhaskar Gupta](https://github.com/bhask4r "View Profile") 
-- [Nishant Giri](https://github.com/nishant-giri "View Profile")
-- [Sagnik Ghosh](https://github.com/sagnikghoshcr7 "View Profile")
-
 ---
    
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
