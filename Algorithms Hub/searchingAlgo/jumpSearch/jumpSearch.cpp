@@ -4,7 +4,7 @@ using namespace std;
 int jumpSearch(int arr[], int x, int n)
 {
     int step = sqrt(n);
-
+ 
     int prev = 0;
     while (arr[min(step, n)-1] < x)
     {
@@ -13,7 +13,6 @@ int jumpSearch(int arr[], int x, int n)
         if (prev >= n)
             return -1;
     }
-
     while (arr[prev] < x)
     {
         prev++;
@@ -26,6 +25,7 @@ int jumpSearch(int arr[], int x, int n)
  
     return -1;
 }
+
 int main()
 {
     int arr[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21,
