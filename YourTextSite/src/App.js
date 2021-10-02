@@ -51,7 +51,7 @@ function App() {
   return (
    <>
         {/* <Router> */}
-          <Navbar title="TextUtils"  mode={mode}/>
+          <Navbar title="YourTextSite"  mode={mode}/>
 
           <Alert alert={alert} />
 
@@ -66,7 +66,7 @@ function App() {
             {/* <Route exact path="/"> */}
               <div className="container">
 
-            <TextForm heading="TextUtils - The Text Utility App" mode={mode} toggleMode={toggleMode} showAlert={showAlert} colorPicker={colorPicker} /> 
+            <TextForm heading="YourTextSite - The Text Utility App" mode={mode} toggleMode={toggleMode} showAlert={showAlert} colorPicker={colorPicker} /> 
               </div>
             {/* </Route>
           </Switch> */}
