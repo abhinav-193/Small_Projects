@@ -119,7 +119,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Kriti Kumari](https://github.com/Kriti-K28 "View Profile") 
 - [Mayank Jain](https://github.com/mayankjain25 "View Profile")
 - [Nishant Giri](https://github.com/nishant-giri "View Profile")
-- [Rakshit Agarwal](https://github.com/ "View Profile")
+- [Rakshit Agarwal](https://github.com/rakshitweb "View Profile")
 - [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
 - [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
 
