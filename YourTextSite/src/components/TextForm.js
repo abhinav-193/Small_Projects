@@ -159,9 +159,11 @@ export default function TextForm(props) {
 
             
 
-            <div className="container text-preview">
-                <h2>Text Preview</h2>
-                <p>{text===""?"(Enter some text in the textbox to preview)":text}</p>
+            <div className="container">
+                <div className={`text-preview ${props.mode}`}>
+                    <h2>Text Preview</h2>
+                    <p>{text===""?"(Enter some text in the textbox to preview)":text}</p>
+                </div>
             </div>
         </div>
     )
