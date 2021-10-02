@@ -1,0 +1,81 @@
+.header {
+    /* THE MAIN NAVBAR */
+    background-color: rgb(43, 43, 53);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    /* the amazon logo */
+    width: 80px;
+    object-fit: contain;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.header__search {
+    /* div containing the search box */
+    display: flex;
+    flex: 1;
+
+}
+
+.header__searchInput {
+    /* literqlly the search box */
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    /* literally the search icon */
+    background-color: #cd9042;
+    height: 20px !important;
+}
+
+.header__nav {
+    /* containing all the 3 links and basket icon's Link */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__link {
+    /* link tag containing a div containing the spans*/
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__option {
+    /* div inside the link containing the spans */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__optionLineOne {
+    /* span line 1 */
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    /* span line 2 */
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+.header__basketcount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
