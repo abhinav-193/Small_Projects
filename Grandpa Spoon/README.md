@@ -1,4 +1,4 @@
-# Grandpa Spoon - Nishant Giri
+# Grandpa Spoon
 
 ## About the Project
 
