@@ -1,4 +1,4 @@
-# 7 Segment Display in C++
+# 7 Segment Display
 
 ## About the Code
 
@@ -9,3 +9,9 @@ Seven segment displays are the output display device that provide a way to displ
 ## Programming Language
 
 C++
+
+---
+
+## Author
+
+[Nishant Giri](https://github.com/nishant-giri "View Profile")
