@@ -3,7 +3,7 @@
 ## Introduction:
 
 Rock, paper, and scissors game is a simple yet fun game. In this project, the *User* can play against the *Computer*. Both the players can choose from three options: a **Rock**, **Paper** or **Scissors**. Based on user and computer choices, the outcome can be either *Win*, *Loss* or *Draw*.
-Both the players can have inifinite number of moves, and the scoreboard moves up based on the wins, losses and draws for each player.
+Both the players can have infinite number of moves, and the scoreboard moves up based on the wins, losses and draws for each player.
 
 ## HTML Layout
 
@@ -48,7 +48,7 @@ Now, we have created a function to *get the computer choice*. We have also creat
 
 Further, we have created three separate functions **win**, **lose** and **draw** to put in the functioning logics for three situations: _User Wins_, _User Loses_ and _It's a Draw_ respectively. We have also added green, red and gray glows with a time period of 300ms for winning, losing and draw respectively.
 
-Further, we have created a _game_ function to determing winning, losing and draw conditions based on the coices selected by the user and computer. For this we have used the switch-case statement.
+Further, we have created a _game_ function to determine winning, losing and draw conditions based on the choices selected by the user and computer. For this we have used the switch-case statement.
 
 Now, we have run the _game_ function and added a _main_ function to add the final functionality to our game.
 
