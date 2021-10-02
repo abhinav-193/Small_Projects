@@ -32,9 +32,24 @@
 }
 
 .text-preview{
-    margin-top: 2rem;
+    border-radius: .25rem;
+    margin: 2.4rem 0;
     /* text-align: center; */
-    /* border: 1px solid black; */
+    border: 2px solid black;
+    padding: 1.4rem;
+}
+
+.text-preview.dark {
+    border-color: white;
+}
+
+.text-preview h2 {
+    font-size: 1.4rem;
+}
+
+.text-preview p {
+    line-height: 1.5;
+    margin-top: 1.2rem;
 }
 
 .color-picker-container{
