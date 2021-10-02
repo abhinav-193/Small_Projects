@@ -1,4 +1,4 @@
-# 7 Segment Display in C++ - Nishant Giri
+# 7 Segment Display in C++
 
 ## About the Code
 
