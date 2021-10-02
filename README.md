@@ -1,6 +1,6 @@
 <img src="./utils/MSAC.jpg" width="110px" style="border-radius : 21%">
 
-# MSC KIIT x Hacktoberfest Projects
+# MSC KIIT × Hacktoberfest Projects
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "Repo Maintained")
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20Us-Anything-1abc9c.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "github.com/akashchouhan16")
@@ -34,17 +34,20 @@ Want a very simple explanation on how to generate a PR?
 
 ## Steps To Contribute [Git Usage]
 
-1. **Fork** this repository
-2. Use your command line to clone the forked repository
-   - `git clone` **<Repository URL>**
-   - **cd** into the created local repository
-3. Add your fixes or the code adhering to `CONTRIBUTING.md`
-4. `git add` **<file_name>**
-5. `git commit -m` **<add_a_valid_comment>**
-6. `git push` the code to your forked repository
+1. **Fork** the repository (Click the **Fork** button on the top right corner of the page)
+2. **Star** the repository (Click the **Star** button on the top right corner of the page)
+3. Use your command line to clone the forked repository to your local machine
+   - `git clone https://github.com/<your_username>/MSCxHacktoberfest.git`
+4. Change the present working directory   
+   - `cd MSCxHacktoberfest`
+5. Add your fixes or the code adhering to `CONTRIBUTING.md`
+6. Push the code to your forked repository
+   - `git add .`
+   - `git commit -m "Your Commit Message"`
+   - `git push`
 7. Create a **pull request**
 
-If you have any doubts regarding "How to create your first PR?", then checkout this video:
+If you have any doubts regarding **"How to create your first PR?"**, then checkout this video:
 <br><p><a href="https://hacktoberfest.digitalocean.com/resources?wvideo=tf3u5ruz5y"><img src="https://embedwistia-a.akamaihd.net/deliveries/4bdee00ef68274f35bc6ad84ac1e49c6.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" ></a></p><p><a href="https://hacktoberfest.digitalocean.com/resources?wvideo=tf3u5ruz5y">Create your first PR</a></p>
 
 **Happy Contributing! 😉**
@@ -83,18 +86,22 @@ If you have any doubts regarding "How to create your first PR?", then checkout t
    
 ## Project List
 
-- **[Block-Manipulation](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Block-Manupulation "View Project")**
-- **[Calculator](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Calculator "View Project")**
-- **[Covid Tracker](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Covid%20Tracker "View Project")**
-- **[Desktop Weather App](https://github.com/MSCKIIT/Small_Projects/tree/master/Desktop-Weather-App "View Project")**
-- **[DiceGame](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/DiceGame "View Project")**
-- **[Drum Kit](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Drum%20Kit "View Project")**
-- **[Grandpa Spoon](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Grandpa%20Spoon "View Project")**
-- **[JavaScript Quiz](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/javascript-quiz-main "View Project")**
-- **[KnowU Flutter Personality Test App](https://github.com/bhask4r/KnowU-Personality-App "View Project")**
-- **[Music Player](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Music_Player "View Project")**
-- **[TinDog](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/TinDog "View Project")**
-- **[URL Minifier](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/URL%20Minifier "View Project")**
+- [7 Segment Display](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/7%20Segment%20Display "View Project")
+- [Block Manipulation](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Block-Manupulation "View Project")
+- [Calculator](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Calculator "View Project")
+- [Covid Tracker](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Covid%20Tracker "View Project")
+- [Desktop Weather App](https://github.com/MSCKIIT/Small_Projects/tree/master/Desktop-Weather-App "View Project")
+- [DiceGame](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/DiceGame "View Project")
+- [Drum Kit](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Drum%20Kit "View Project")
+- [Grandpa Spoon](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Grandpa%20Spoon "View Project")
+- [JavaScript Quiz](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/javascript-quiz-main "View Project")
+- [KnowU Flutter Personality Test App](https://github.com/bhask4r/KnowU-Personality-App "View Project")
+- [Music Player](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Music_Player "View Project")
+- [Rock Paper Scissor Game](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Rock%20Paper%20Scissors%20Game "View Project")
+- [Quiz Web App](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/Quiz%20web%20app "View Project")
+- [TinDog](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/TinDog "View Project")
+- [To-do Webpage](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/To-do%20webpage "View Project")
+- [URL Minifier](https://github.com/MSCKIIT/MSCxHacktoberfest/tree/master/URL%20Minifier "View Project")
 
 ---
 
