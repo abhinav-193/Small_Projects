@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .app {
+  text-align: center;
+  background-color: #15161a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: (10px+2vmin);
+  color: white;
+  border: 1px solid black;
+} */
+
+.app nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+body {
+  background-color: #15161a;
+}
+
+.app nav li {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  list-style: none;
+}
+
+.app .link-text {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.app nav li:hover {
+  background-color: rgb(77, 72, 72);
+  color: black;
+}
+
+.app nav li .active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.app h1 {
+  margin-bottom: 20px;
+}
+
+.app button {
+  padding: 10px 4px;
+  font-size: 4vmin;
+  margin: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.router {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 1.5rem;
+}
