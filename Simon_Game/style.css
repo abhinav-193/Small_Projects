@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(29, 29, 116);
+    color: burlywood;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+}
+h1{
+    padding: 20px 5px;
+    font-size: 4rem;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 10%;
+    display: inline-block;
+    margin-top: 20px;
+    opacity: 1;
+    transition: 0.3s opacity linear;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}

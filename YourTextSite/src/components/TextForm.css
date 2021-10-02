@@ -1,0 +1,87 @@
+.input-textarea{
+    margin-top: 20px;
+    border:2px black dashed;
+}
+
+.textform-heading{
+    margin-top:30px;
+}
+
+.text-btn-container{
+    display: flex;
+    justify-content: left;
+}
+
+.text-btn-container>button{
+    margin-right: 2vw;
+    border-radius: 4px;
+    background-color: rgb(248, 170, 69);
+    color:black;
+    border:none;
+
+}
+
+.copy-and-dark{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.dark-mode-toggler{
+    margin-left: 2rem;
+}
+
+.text-preview{
+    border-radius: .25rem;
+    margin: 2.4rem 0;
+    /* text-align: center; */
+    border: 2px solid black;
+    padding: 1.4rem;
+}
+
+.text-preview.dark {
+    border-color: white;
+}
+
+.text-preview h2 {
+    font-size: 1.4rem;
+}
+
+.text-preview p {
+    line-height: 1.5;
+    margin-top: 1.2rem;
+}
+
+.color-picker-container{
+    margin-left:1.34rem;
+}
+
+@media screen and (max-width: 768px) {
+    .text-btn-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .text-btn-container>button{
+        
+        margin: 2%;
+        flex: 1 0 45%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .text-btn-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .text-btn-container>button{
+        
+        margin: 2%;
+        flex: 1 0 33%;
+    }
+}
