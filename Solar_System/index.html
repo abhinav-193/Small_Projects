@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Solar System</title>
+     <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>          
+  </head>         
+  <body>                                        
+   <a-scene>                                                                                                    
+    
+     <a-sky src="https://cdn.glitch.com/f9e41103-3dfa-4612-88b8-bc76a91e5471%2Fstars_milky_way.jpg?1514628044059"> </a-sky>
+
+     <a-sphere radius="40" position="-130 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fsun.jpg?1516673907555">
+         <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere                         
+     <!-- Mercury -->
+     <a-sphere radius="0.75" position="-50 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fmercury.jpg?1516674711553">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+    <!-- Venus -->
+     <a-sphere radius="1.25" position="-35 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fvenus.jpg?1516674712030">
+          <a-animation attribute="rotation" dur="-10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <!-- Earth -->
+     <a-sphere radius="2" position="-20 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fearth.jpg?1516674711700">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <!-- Mars -->
+     <a-sphere radius="1" position="-9 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fmars.jpg?1516674713872">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <!-- Jupiter -->
+     <a-sphere radius="10" position="6 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fjupiter.jpg?1516674880579">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <!-- Saturn -->
+     <a-sphere radius="8" position="33 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fsaturn.jpg?1516674882901">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <a-ring radius-inner="9.5" radius-outer="12" position=" 33 -10 -30" rotation="-71" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fsaturn%20ring.jpg?1516674882925">
+     </a-ring>
+     <!-- Uranus -->
+     <a-sphere radius="4" position="68 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Furanus.jpg?1516674885015">
+          <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     
+     </a-sphere>
+     <a-ring color="white" radius-inner="5.5" radius-outer="6.5" position="68 -10 -30" rotation="-37"> </a-ring>
+
+     <!-- Neptune -->
+     <a-sphere radius="4" position="89 -10 -30" src="https://cdn.glitch.com/3519f322-2bb4-4041-9c72-3e88f2d62289%2Fneptune.png?1516674884865">
+       <a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+     </a-sphere>
+   
+   <!-- Titles -->
+    <a-text value="Sun" position="-130 45 -30" color="white" align="center" height="200" width="200" text="letterSpacing: 3" > </a-text>
+    <a-text value="Mercury" position="-50 0 -30" color="white" align="center" height="60" width="60"  text="letterSpacing: 1" > </a-text>
+     <a-text value="Venus" position="-35 0 -30" color="white" align="center" height="60" width="60"  text="letterSpacing: 1" > </a-text>
+     <a-text value="Earth" position="-20 5 -30" color="white" align="center" height="70" width="70" text="letterSpacing: 1"> </a-text>
+     <a-text value="Mars" position="-9 5 -30" color="white" align="center" height="70" width="70"  text="letterSpacing: 1" > </a-text>
+     <a-text value="Jupiter" position="10 7 -30" color="white" align="center" height="100" width="100"  text="letterSpacing: 3" > </a-text>
+     <a-text value="Saturn" position="31 5 -27" color="white" align="center" height="100" width="100"  text="letterSpacing: 3" > </a-text>
+     <a-text value="Uranus" position="50 2 -25" color="white" align="center" height="100" width="100"  text="letterSpacing: 3" > </a-text>
+     <a-text value="Neptune" position="68 0 -25" color="white" align="center" height="100" width="100"  text="letterSpacing: 3" > </a-text>
+     
+    </a-scene>
+    
+    
+  </body>
+</html>     
