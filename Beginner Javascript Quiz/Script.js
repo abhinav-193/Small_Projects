@@ -1,7 +1,4 @@
-
  
-  
-  
 function login()
 {
   var emailtext=document.getElementById('email')
