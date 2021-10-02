@@ -1,6 +1,6 @@
-# Covid Tracker - Nishant Giri
+# Covid Tracker
 
-## About the Code
+## About the Project
 
 Covid Tracker collects and publishes the data available for the country.
 
