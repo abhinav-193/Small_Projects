@@ -1,5 +1,6 @@
 # Related Issue
 - Mention the issue number that you have solved
+For ex: Fixed Issue #102
 
 # Proposed Changes
 - Change 1
