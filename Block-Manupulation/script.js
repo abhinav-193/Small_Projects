@@ -51,7 +51,7 @@ window.addEventListener('load',function(){
     let hex = document.getElementById('hex');
     hex.addEventListener('keyup',function(e){
         if(e.key === 'Enter')
-        block.style.backgroundColor = `#${hex.value}`;
+            block.style.backgroundColor = `#${hex.value}`;
     })
 
     let rgbaR = document.getElementById('rgba-r');
@@ -60,7 +60,7 @@ window.addEventListener('load',function(){
     let rgbaA = document.getElementById('rgba-a');
 
     let rgbaInputs = document.querySelectorAll('.rgba-container input');
-    rgbaInput.forEach(function(element){
+    rgbaInputs.forEach(function(element){
         element.addEventListener('input',function(){
             block.style.backgroundColor = `rgba(${rgbaR.value}, ${rgbaG.value},${rgbaB.value},${rgbaA.value})`;
         })

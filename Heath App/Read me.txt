@@ -1,3 +1,0 @@
-# Health App
-
-This is a simple python software that uses pygame audio to alarm or warn the individual with personalised music over a set period of time, and can be stopped by typing a specific keyword.
