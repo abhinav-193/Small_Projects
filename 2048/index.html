@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://www.feirox.com/rivu/2014/04/2048-3.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <span>2048</span>
+            <div class="score-keeper">
+                <span>Score</span>
+                <span class="score">0</span>
+            </div>
+        </div>
+        <div class="sub-heading">
+            <span>Join the tiles and get to <strong>2048 tile!</strong></span>
+            <button class="newGame">New Game</button>
+        </div>
+        <div class="game-result">
+            <button></button>
+        </div>
+        <div class="grid-display">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+        </div>
+        <p class="game-description">
+            <strong class="important">How to play:</strong> Use your <strong>W, A, S, D</strong> to move the tiles. When two
+            tiles with the same number touch, they <strong>merge into one!</strong>
+        </p>
+        <hr>
+        <p>
+            <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone
+            via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and
+            should be used with caution.
+        </p>
+        <hr>
+        <p>
+            Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a
+              href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and
+            conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+        </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
