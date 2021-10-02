@@ -17,3 +17,15 @@ Grandpa Spoon uses a gyro sensor to detect the angle caused due to the hand trem
 1. Microcontroller - Processes all data from the sensor
 2. Servo Motor - Type of motor which  creates a high torque
 3. IMU Sensor - Specific type of sensor that measures angular rate and force
+
+---
+
+## Programming Language
+
+C++
+
+---
+
+## Author
+
+[Nishant Giri](https://github.com/nishant-giri "View Profile")
