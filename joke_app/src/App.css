@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("laugh.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Acme', sans-serif;
+  
+}
+.jokescontainer{
+  padding: 20px 20px;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 30px;
+  
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+h1{
+  animation: text 4s steps(15) infinite alternate;
+  color: rgb(69, 76, 179);
+}
+@keyframes text{
+  0%{
+    width: 0ch;
+    
+  }
+  50%{
+    width:18ch;
+    color:rgb(218, 55, 5);
+  }
+}
+h4{
+  padding: 5px;
+}
+.btn{
+  padding-bottom: 1rem;
+}
+button{
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  border-radius: 10px;
+  padding: 15px 30px;
+  
+  box-shadow: 0px 8px 15px rgba(126, 30, 30, 0.637);
+  font-family: 'Acme', sans-serif;
+}
+
+button:hover {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
