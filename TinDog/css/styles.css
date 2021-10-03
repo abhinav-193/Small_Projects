@@ -12,12 +12,19 @@ body {
 /*Sections*/
 
 .coloured-section {
-  background-color: #ff4c68;
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #161739,
+    #251339,
+    #330d35,
+    #3e052f
+  );
   color: #fff;
 }
 
 .white-section {
-  background-color: #fff;
+  background-color: #f5e9b3;
 }
 
 h1,
@@ -116,9 +123,11 @@ p {
 
 #testimonials {
   background-color: #ef8172;
+  color: #ffffff;
 }
 
 .testimonial-text {
+  font-family: "Ubuntu";
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -127,6 +136,7 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+  border: 7px solid #ffffff;
 }
 
 #press {
@@ -135,8 +145,14 @@ p {
 }
 
 .press-logo {
-  width: 15%;
+  width: 13%;
   margin: 20px 20px 50px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.small {
+  width: 7%;
 }
 
 /*Pricing Section*/
@@ -183,6 +199,8 @@ p {
 
 /*CTA Section*/
 
+=======
+
 /*Footer Section*/
 
 .social-icon {
@@ -193,7 +211,6 @@ p {
   #title {
     text-align: center;
   }
-
   .title-image {
     position: static;
     transform: rotate(0);
