@@ -1,1 +1,0 @@
-This is an app that will work as a dice.
