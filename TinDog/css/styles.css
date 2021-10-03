@@ -1,4 +1,3 @@
-
 body {
   font-family: "Ubuntu";
   text-align: center;
@@ -13,15 +12,27 @@ body {
 /*Sections*/
 
 .coloured-section {
-  background-image: linear-gradient(to right, #051937, #161739, #251339, #330d35, #3e052f);
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #161739,
+    #251339,
+    #330d35,
+    #3e052f
+  );
   color: #fff;
 }
 
 .white-section {
-  background-color: #F5E9B3;
+  background-color: #f5e9b3;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
 }
 
@@ -32,7 +43,7 @@ p {
 /*HEADINGS*/
 
 .big-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -112,9 +123,11 @@ p {
 
 #testimonials {
   background-color: #ef8172;
+  color: #ffffff;
 }
 
 .testimonial-text {
+  font-family: "Ubuntu";
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -123,16 +136,23 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+  border: 7px solid #ffffff;
 }
 
 #press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-  width: 15%;
+  width: 13%;
   margin: 20px 20px 50px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.small {
+  width: 7%;
 }
 
 /*Pricing Section*/
@@ -152,8 +172,6 @@ p {
 
 /*CTA Section*/
 
-
-
 /*Footer Section*/
 
 .social-icon {
@@ -161,7 +179,6 @@ p {
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
