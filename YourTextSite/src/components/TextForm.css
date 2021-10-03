@@ -30,7 +30,9 @@
 .dark-mode-toggler{
     margin-left: 2rem;
 }
-
+.bold{
+    margin-left: 2rem;
+}
 .text-preview{
     border-radius: .25rem;
     margin: 2.4rem 0;
