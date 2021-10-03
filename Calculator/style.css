@@ -4,7 +4,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background: indianred;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%); 
 }
 .nav{
     display: flexbox;
