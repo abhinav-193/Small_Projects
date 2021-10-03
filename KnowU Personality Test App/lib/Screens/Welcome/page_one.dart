@@ -1,18 +1,18 @@
+// ignore: implementation_imports
 import 'package:black_hole_flutter/src/navigation.dart';
 import 'package:dashed_container/dashed_container.dart';
 
 import 'package:flutter/material.dart';
 import 'package:project_open_jung/Screens/Welcome/second_page.dart';
 import 'package:project_open_jung/components/text_widgets/color_text.dart';
-import 'package:project_open_jung/components/text_widgets/heading_text.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
-import 'package:tinder_swipecard/tinder_swipecard.dart';
 
 class KnowYourself extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
+    // ignore: non_constant_identifier_names
     double WIDTH = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Container(
@@ -221,17 +221,18 @@ class RPSCustomPainter extends CustomPainter {
 }
 
 //Copy this CustomPainter code to the Bottom of the File
+// ignore: camel_case_types
 class smallCircles extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffffffff).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override
@@ -243,14 +244,14 @@ class smallCircles extends CustomPainter {
 class SmallCircleGrey extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffFDC8B6).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffFDC8B6).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override

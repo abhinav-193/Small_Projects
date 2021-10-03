@@ -1,16 +1,18 @@
 import 'dart:ui' as ui;
+// ignore: implementation_imports
 import 'package:black_hole_flutter/src/navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:project_open_jung/Screens/Welcome/page_three.dart';
 import 'package:project_open_jung/components/text_widgets/color_text.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
-import 'package:tinder_swipecard/tinder_swipecard.dart';
+
 
 class ImproveYourself extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
+    // ignore: non_constant_identifier_names
     double WIDTH = MediaQuery.of(context).size.width;
     print(WIDTH);
     return Scaffold(
@@ -274,8 +276,8 @@ class RPSCustomPainter extends CustomPainter {
         [Color(0xff9D69F2), Color(0xffD271D2)],
         [0.00, 1.00]);
 
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.shader = ui.Gradient.linear(
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.shader = ui.Gradient.linear(
         Offset(size.width * 0.5000000, 0),
         Offset(size.width * 0.5000000, size.height * 0.01000000),
         [Color(0xffd271d2).withOpacity(1), Color(0xff9d69f2).withOpacity(1)],
@@ -330,11 +332,11 @@ class BottomArc extends CustomPainter {
     path_0.lineTo(size.width * 0.02416265, size.height * 0.8209256);
     path_0.lineTo(0, size.height * 0.8723477);
 
-    Paint paint_0_stroke = Paint()
+    Paint paint0Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.002675227;
-    paint_0_stroke.color = Color(0xffffffff).withOpacity(1.0);
-    canvas.drawPath(path_0, paint_0_stroke);
+    paint0Stroke.color = Color(0xffffffff).withOpacity(1.0);
+    canvas.drawPath(path_0, paint0Stroke);
   }
 
   @override
@@ -383,11 +385,11 @@ class LeftToRight extends CustomPainter {
         size.height * 0.2049648);
     path_0.lineTo(size.width * 0.9648974, size.height * 0.1880677);
 
-    Paint paint_0_stroke = Paint()
+    Paint paint0Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.002632369;
-    paint_0_stroke.color = Color(0xffffffff).withOpacity(1.0);
-    canvas.drawPath(path_0, paint_0_stroke);
+    paint0Stroke.color = Color(0xffffffff).withOpacity(1.0);
+    canvas.drawPath(path_0, paint0Stroke);
   }
 
   @override
@@ -436,11 +438,11 @@ class RightToLeft extends CustomPainter {
         size.height * 0.1773819);
     path_0.lineTo(size.width * 0.8292109, size.height * 0.1627587);
 
-    Paint paint_0_stroke = Paint()
+    Paint paint0Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.002262198;
-    paint_0_stroke.color = Color(0xffffffff).withOpacity(1.0);
-    canvas.drawPath(path_0, paint_0_stroke);
+    paint0Stroke.color = Color(0xffffffff).withOpacity(1.0);
+    canvas.drawPath(path_0, paint0Stroke);
   }
 
   @override
@@ -453,20 +455,20 @@ class RightToLeft extends CustomPainter {
 class Rectangles extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffffffff).withOpacity(1.0);
     canvas.drawRect(
         Rect.fromLTWH(0, 0, size.width * 0.8783212, size.height * 0.8696352),
-        paint_0_fill);
+        paint0Fill);
 
-    Paint paint_1_stroke = Paint()
+    Paint paint1Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.01568431;
-    paint_1_stroke.color = Color(0xffa4748c).withOpacity(1.0);
+    paint1Stroke.color = Color(0xffa4748c).withOpacity(1.0);
     canvas.drawRect(
         Rect.fromLTWH(size.width * 0.007842153, size.height * 0.008052178,
             size.width * 0.8626368, size.height * 0.8535309),
-        paint_1_stroke);
+        paint1Stroke);
   }
 
   @override
@@ -479,25 +481,25 @@ class Rectangles extends CustomPainter {
 class SmullCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffffffff).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
 
-    Paint paint_1_stroke = Paint()
+    Paint paint1Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.03225806;
-    paint_1_stroke.color = Color(0xffa4748c).withOpacity(1.0);
+    paint1Stroke.color = Color(0xffa4748c).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width * 0.9677419,
             height: size.height * 0.9666667),
-        paint_1_stroke);
+        paint1Stroke);
   }
 
   @override
@@ -510,10 +512,10 @@ class SmullCircle extends CustomPainter {
 class BottomGradientCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xff916af1).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xff916af1).withOpacity(1.0);
     canvas.drawCircle(Offset(size.width * 0.5000000, size.height * 0.5000000),
-        size.width * 0.5000000, paint_0_fill);
+        size.width * 0.5000000, paint0Fill);
   }
 
   @override
@@ -525,10 +527,10 @@ class BottomGradientCircle extends CustomPainter {
 class TopCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffd26fd3).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffd26fd3).withOpacity(1.0);
     canvas.drawCircle(Offset(size.width * 0.5000000, size.height * 0.5000000),
-        size.width * 0.5000000, paint_0_fill);
+        size.width * 0.5000000, paint0Fill);
   }
 
   @override
@@ -537,17 +539,18 @@ class TopCircle extends CustomPainter {
   }
 }
 
+// ignore: camel_case_types
 class smallCircles extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffffffff).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override
@@ -559,14 +562,14 @@ class smallCircles extends CustomPainter {
 class SmallCircleGrey extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffBBAEF6).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xffBBAEF6).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override

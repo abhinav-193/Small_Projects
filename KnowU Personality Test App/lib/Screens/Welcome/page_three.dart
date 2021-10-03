@@ -1,11 +1,12 @@
-import 'dart:ui' as ui;
+// ignore: implementation_imports
+// ignore_for_file: non_constant_identifier_names, camel_case_types
+
+// ignore: implementation_imports
 import 'package:black_hole_flutter/src/navigation.dart';
 import 'package:flutter/material.dart';
-import 'package:dashed_circle/dashed_circle.dart';
 import 'package:project_open_jung/components/text_widgets/color_text.dart';
 import 'package:project_open_jung/personality_test/personality_test.dart';
 import 'package:swipeable_page_route/swipeable_page_route.dart';
-import 'package:tinder_swipecard/tinder_swipecard.dart';
 
 class ChatPeople extends StatelessWidget {
   @override
@@ -218,14 +219,14 @@ class RPSCustomPainter extends CustomPainter {
 class LeftGreenCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xff9ce9b3).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xff9ce9b3).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override
@@ -240,14 +241,14 @@ class LeftGreenCircle extends CustomPainter {
 class RightGreenCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_0_fill = Paint()..style = PaintingStyle.fill;
-    paint_0_fill.color = Color(0xff9ce9b3).withOpacity(1.0);
+    Paint paint0Fill = Paint()..style = PaintingStyle.fill;
+    paint0Fill.color = Color(0xff9ce9b3).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width,
             height: size.height),
-        paint_0_fill);
+        paint0Fill);
   }
 
   @override
@@ -262,16 +263,16 @@ class RightGreenCircle extends CustomPainter {
 class SmallCircle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint_1_stroke = Paint()
+    Paint paint1Stroke = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.007142857;
-    paint_1_stroke.color = Color(0xffffffff).withOpacity(1.0);
+    paint1Stroke.color = Color(0xffffffff).withOpacity(1.0);
     canvas.drawOval(
         Rect.fromCenter(
             center: Offset(size.width * 0.5000000, size.height * 0.5000000),
             width: size.width * 0.9928571,
             height: size.height * 0.9927007),
-        paint_1_stroke);
+        paint1Stroke);
   }
 
   @override
@@ -283,9 +284,9 @@ class smallCircles extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
 
-    Paint paint_0_fill = Paint()..style=PaintingStyle.fill;
-    paint_0_fill.color = Color(0xffffffff).withOpacity(1.0);
-    canvas.drawOval(Rect.fromCenter(center:Offset(size.width*0.5000000,size.height*0.5000000),width:size.width,height:size.height),paint_0_fill);
+    Paint paint0Fill = Paint()..style=PaintingStyle.fill;
+    paint0Fill.color = Color(0xffffffff).withOpacity(1.0);
+    canvas.drawOval(Rect.fromCenter(center:Offset(size.width*0.5000000,size.height*0.5000000),width:size.width,height:size.height),paint0Fill);
 
   }
 
@@ -299,9 +300,9 @@ class SmallCircleGrey extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
 
-    Paint paint_0_fill = Paint()..style=PaintingStyle.fill;
-    paint_0_fill.color = Color(0xff9DEAD3).withOpacity(1.0);
-    canvas.drawOval(Rect.fromCenter(center:Offset(size.width*0.5000000,size.height*0.5000000),width:size.width,height:size.height),paint_0_fill);
+    Paint paint0Fill = Paint()..style=PaintingStyle.fill;
+    paint0Fill.color = Color(0xff9DEAD3).withOpacity(1.0);
+    canvas.drawOval(Rect.fromCenter(center:Offset(size.width*0.5000000,size.height*0.5000000),width:size.width,height:size.height),paint0Fill);
 
   }
 

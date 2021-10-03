@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_open_jung/Details/Diplomats/INFJ/career.dart';
 import 'package:project_open_jung/Details/Diplomats/INFJ/overview.dart';
-import 'package:project_open_jung/Details/Diplomats/INFP/career.dart';
-import 'package:project_open_jung/Details/Diplomats/INFP/overview.dart';
 import 'package:project_open_jung/components/text_widgets/color_text.dart';
 
 class TabINFJ extends StatelessWidget {
