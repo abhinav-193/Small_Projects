@@ -30,9 +30,11 @@ Now, we have styled the various list items present in the unordered list.
 
 Now, we'll talk about the JavaScript part which makes our page functional.
 
-First, we have created variables for _inputBox_, _addBtn_, _todoList_ and _deleteAllBtn_. Then, we have added functioning for taking user input in the input field.
+First, we have created variables for _inputBox_, _addBtn_, _todoList_, _deleteAllBtn_, and _input_. Then, we have added functioning for taking user input in the input field.
 
 Further, we have created a _showTasks_ function to show all the entered tasks in the list. Then, we have created a variable _pendingTasksNumb_ to store the number of pending tasks for the user.
+
+Following this, we have added an event listener for the input field to enable adding of new tasks through the ENTER key in the text field.
 
 We have also added a functioning delete button beside each stored task to remove it from the list.
 

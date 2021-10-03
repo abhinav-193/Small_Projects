@@ -28,7 +28,8 @@ We have given the background colour for the _game body_ as a blue-black colour s
 
 For _h1_, we have used a black-ish font colour and aligned it to the center. The font used is 'Asap, sans-serif' which we previously imported.
 
-Now, we have provided styling for the _scoreboard_ and _badge_ classes as mentioned in the file _style.css_.
+Now,for the _scoreboard_ we have used the box-shadow property to give it a depth look and in _badge_ classes we have used text-transform to convert the letters 
+to uppercase and font-weight to make it bold as mentioned in the file _style.css_.
 
 We have positioned the _user-label_(user) and _computer-label_(comp) next.
 
