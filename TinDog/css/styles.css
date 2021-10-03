@@ -13,12 +13,12 @@ body {
 /*Sections*/
 
 .coloured-section {
-  background-color: #ff4c68;
+  background-image: linear-gradient(to right, #051937, #161739, #251339, #330d35, #3e052f);
   color: #fff;
 }
 
 .white-section {
-  background-color: #fff;
+  background-color: #F5E9B3;
 }
 
 h1,h2,h3,h4,h5,h6 {
