@@ -23,19 +23,15 @@ export default function TextForm(props) {
     }
 
     const handleBoldClick=()=>{
+        console.log("bold was clicked");
         props.showAlert("Converted to Bold Successfully!","success");
         if (Bold==="bold"){
         setBold("normal");
-
         }
         else{
             setBold("bold");
     
         }
-
-
-        console.log("bold was clicked");
-
     }
     const handleUpClick = () =>{
         console.log("Upper was clicked");
@@ -136,7 +132,7 @@ export default function TextForm(props) {
                     </textarea>
 
                         <div className="copy-and-dark">
-                        iscopied
+
                     <CopyToClipboard text={text} onCopy={onCopyText}>
                             <div className="copy-area">
                             <button className="btn btn-dark my-3">Copy</button>
@@ -179,7 +175,7 @@ export default function TextForm(props) {
             
 
             <div className="container">
-                <div className={`text-preview ${props.mode}`}>preview
+                <div className={`text-preview ${props.mode}`}>
                     <h2>Text Preview</h2>
                     <p style={{fontWeight: Bold}}>{  text===""?"(Enter some text in the textbox to preview)":text}</p>
                 </div>
