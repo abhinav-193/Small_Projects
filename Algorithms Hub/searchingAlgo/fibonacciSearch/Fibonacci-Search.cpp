@@ -45,7 +45,13 @@ int main()
     int i, size, element;
     cout<<"Enter Size of Array: ";
     cin>>size;
-    fibonacciElement[size], arr[size];
+    cout<<"\n";
+	int fibonacciElement[size], arr[size];
+	for(i = 0; i < size; i++)
+    {
+        cout<<"Enter Element "<<i + 1<<": ";
+        cin>>arr[i];
+    }
 	fibonacciElement[0] = 0;
 	fibonacciElement[1] = 1;
 	i = 1;
