@@ -122,6 +122,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Rakshit Agarwal](https://github.com/rakshitweb "View Profile")
 - [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
 - [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
+- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
 
 ---
    
