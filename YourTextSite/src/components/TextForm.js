@@ -9,6 +9,7 @@ export default function TextForm(props) {
     // const [numWords,setNumWords] = useState(0);
     // const [numChar,setNumChar] = useState(0);
     const [isCopied,setIsCopied]=useState(false);
+    const [Bold,setBold]=useState("normal");
    
     
 
@@ -21,7 +22,21 @@ export default function TextForm(props) {
         },1000)
     }
 
-   
+    const handleBoldClick=()=>{
+        props.showAlert("Converted to Bold Successfully!","success");
+        if (Bold==="bold"){
+        setBold("normal");
+
+        }
+        else{
+            setBold("bold");
+    
+        }
+
+
+        console.log("bold was clicked");
+
+    }
     const handleUpClick = () =>{
         console.log("Upper was clicked");
         let newText=text.toUpperCase();
@@ -115,13 +130,13 @@ export default function TextForm(props) {
                     {/* <label for="my-textarea" className="form-label my-3">{props.heading}</label> */}
                     
                     
-                    <textarea placeholder="Enter your text here" className="form-control input-textarea" style={{backgroundColor: props.mode==='light'?'white':'lightgray'}} id="my-textarea" rows="10" value={text} onChange={handleOnChange} 
+                    <textarea placeholder="Enter your text here" className="form-control  input-textarea" style={{backgroundColor: props.mode==='light'?'white':'lightgray'},{fontWeight: Bold}} id="my-textarea" rows="10" value={text} onChange={handleOnChange} 
                     >
                         
                     </textarea>
 
                         <div className="copy-and-dark">
-
+                        iscopied
                     <CopyToClipboard text={text} onCopy={onCopyText}>
                             <div className="copy-area">
                             <button className="btn btn-dark my-3">Copy</button>
@@ -140,6 +155,10 @@ export default function TextForm(props) {
                      <div className="color-picker-container">
                      <input title="Any color picked from here will be applied if you press the dark mode switch" type="color" name="colorchooser" onChange={colorFunc} />
                      </div>
+                    <div className="bold" >
+                        <button disabled={text.length===0} onClick={handleBoldClick} className="btn btn-light">B</button>  
+
+                    </div>
                         </div>
                 </div> 
             </div>
@@ -160,9 +179,9 @@ export default function TextForm(props) {
             
 
             <div className="container">
-                <div className={`text-preview ${props.mode}`}>
+                <div className={`text-preview ${props.mode}`}>preview
                     <h2>Text Preview</h2>
-                    <p>{text===""?"(Enter some text in the textbox to preview)":text}</p>
+                    <p style={{fontWeight: Bold}}>{  text===""?"(Enter some text in the textbox to preview)":text}</p>
                 </div>
             </div>
         </div>
