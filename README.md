@@ -1,6 +1,4 @@
-<img src="./utils/MSAC.jpg" width="110px" style="border-radius : 21%">
-
-# MSC KIIT × Hacktoberfest Projects
+[![MSC KIIT](https://readme-typing-svg.herokuapp.com?font=Helvetica+2&color=FFFFFF&size=55&center=true&vCenter=true&width=1000&height=100&lines=MSC+KIIT+×+Hacktoberfest+Projects)](https://git.io/typing-svg)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "Repo Maintained")
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20Us-Anything-1abc9c.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "github.com/akashchouhan16")
@@ -54,8 +52,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 
 ---
 
-## Hacktoberfest 2021 | FAQs
-   
+## Hacktoberfest 2021 | FAQs   
 
 **<details><summary>What is Open Source?</summary>**
 <br>Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish.</details>
@@ -125,10 +122,9 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
 - [Arnab Chatterjee](https://github.com/arn4b "View Profile")
 - [Eshaan Anand](https://github.com/eshaananand "View Profile")
+- [Sagar Satapathy](https://github.com/wishsagarks "View Profile")
 - [Santanu Biswas](https://github.com/SantanuxD "View Profile")
 - [Shivangi-Mohanty](https://github.com/Shivangi-27 "View Profile")
-- [SAGAR SATAPATHY](https://github.com/wishsagarks "View Profile")
-
 
 ---
    
