@@ -12,7 +12,8 @@ html {
 
 body {
     height: 100vh;
-    background: linear-gradient(#10416b, #000000);
+    background: rgb(63,94,251);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .calculator {
@@ -39,6 +40,7 @@ body {
     width: 100%;
     ;
 }
+
 
 .operation {
     width: 600px;

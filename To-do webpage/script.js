@@ -2,6 +2,7 @@ const inputBox = document.querySelector(".inputField input");
 const addBtn = document.querySelector(".inputField button");
 const todoList = document.querySelector(".todoList");
 const deleteAllBtn = document.querySelector(".footer button");
+const input = document.getElementById("todo_input");
 
 inputBox.onkeyup = () => {
   let userEnteredValue = inputBox.value;
@@ -13,6 +14,13 @@ inputBox.onkeyup = () => {
 };
 
 showTasks();
+
+input.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    addBtn.click();
+  }
+});
 
 addBtn.onclick = () => {
   let userEnteredValue = inputBox.value;

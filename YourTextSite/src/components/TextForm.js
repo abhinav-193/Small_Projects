@@ -7,6 +7,7 @@ export default function TextForm(props) {
   // const [numWords,setNumWords] = useState(0);
   // const [numChar,setNumChar] = useState(0);
   const [isCopied, setIsCopied] = useState(false);
+  const [Bold, setBold] = useState("normal");
 
   const onCopyText = () => {
     props.showAlert("Copied!", "success");
@@ -16,6 +17,15 @@ export default function TextForm(props) {
     }, 1000);
   };
 
+  const handleBoldClick = () => {
+    console.log("bold was clicked");
+    props.showAlert("Converted to Bold Successfully!", "success");
+    if (Bold === "bold") {
+      setBold("normal");
+    } else {
+      setBold("bold");
+    }
+  };
   const handleUpClick = () => {
     console.log("Upper was clicked");
     let newText = text.toUpperCase();
@@ -75,6 +85,20 @@ export default function TextForm(props) {
   // const countCharacters = (text) =>{
   //     setNumChar(text.length)
   // }
+
+  const handleOccurrenceClick = () => {
+    let count = 0;
+    const key = prompt("Enter the value to find its occurrences: ");
+    const arr = text.split(" ");
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] === key) count = count + 1;
+    }
+
+    if (count === 0) props.showAlert("No occurrence found", "danger");
+    else props.showAlert(`${key} found ${count} times`, "success");
+    // alert(key + " occurs "+ count+ " times")
+  };
+
   const ROT13 = (str) => {
     let newStr = "";
     for (let i = 0; i < str.length; i++) {
@@ -100,18 +124,6 @@ export default function TextForm(props) {
     setText(newText);
     props.showAlert("ROT13 Successfully", "success");
   };
-  const handleOccurrenceClick = () => {
-    let count = 0;
-    const key = prompt("Enter the value to find its occurrences: ");
-    const arr = text.split(" ");
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] === key) count = count + 1;
-    }
-
-    if (count === 0) props.showAlert("No occurrence found", "danger");
-    else props.showAlert(`${key} found ${count} times`, "success");
-    // alert(key + " occurs "+ count+ " times")
-  };
 
   const colorFunc = (event) => {
     props.colorPicker(event.target.value);
@@ -125,10 +137,13 @@ export default function TextForm(props) {
 
           <textarea
             placeholder="Enter your text here"
-            className="form-control input-textarea"
-            style={{
-              backgroundColor: props.mode === "light" ? "white" : "lightgray",
-            }}
+            className="form-control  input-textarea"
+            style={
+              ({
+                backgroundColor: props.mode === "light" ? "white" : "lightgray",
+              },
+              { fontWeight: Bold })
+            }
             id="my-textarea"
             rows="10"
             value={text}
@@ -166,6 +181,15 @@ export default function TextForm(props) {
                 name="colorchooser"
                 onChange={colorFunc}
               />
+            </div>
+            <div className="bold">
+              <button
+                disabled={text.length === 0}
+                onClick={handleBoldClick}
+                className="btn btn-light"
+              >
+                B
+              </button>
             </div>
           </div>
         </div>
@@ -229,7 +253,7 @@ export default function TextForm(props) {
       <div className="container">
         <div className={`text-preview ${props.mode}`}>
           <h2>Text Preview</h2>
-          <p>
+          <p style={{ fontWeight: Bold }}>
             {text === "" ? "(Enter some text in the textbox to preview)" : text}
           </p>
         </div>
