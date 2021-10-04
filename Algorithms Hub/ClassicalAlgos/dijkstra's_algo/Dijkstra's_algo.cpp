@@ -2,7 +2,7 @@
 #include<climits>
 using namespace std;
 
-int getminvertex(int* distances , bool* visited , int n){
+int getminvertex(int* distances , bool* visited , int n){  // To find the min vertex
     int minvertex = -1;
     for (int i = 0; i < n; i++)
     {
@@ -15,8 +15,8 @@ int getminvertex(int* distances , bool* visited , int n){
 }
 
 void Djikatras(int** edges , int n){
-    int* distances = new int[n];
-    bool* visited = new bool[n];
+    int* distances = new int[n];        // Array to store the distances 
+    bool* visited = new bool[n];        // to check whether the element is visited or not
 
     for (int i = 0; i < n; i++)
     {
@@ -27,7 +27,7 @@ void Djikatras(int** edges , int n){
 
     for (int i = 0; i < n; i++)
     {
-        int minvertex = getminvertex(distances , visited , n);
+        int minvertex = getminvertex(distances , visited , n);      // to find the minvertex 
         visited[minvertex] = true;
         for (int j = 0; j < n; j++)
         {
@@ -45,8 +45,8 @@ void Djikatras(int** edges , int n){
     {
         cout<<distances[i]<<endl;
     }
-    delete [] visited;
-    delete [] distances;
+    delete [] visited;             // delete the created array
+    delete [] distances;           // ---
 }
 
 int main(){
@@ -66,13 +66,14 @@ int main(){
     for (int i = 0; i < e; i++)
     {
         int first,second,weight;
-        cin>>first>>second>>weight;
-        edges[first][second] = weight;
+        cin>>first>>second>>weight;           // taking the inputs
+        edges[first][second] = weight;       // adding the values to it
         edges[second][first] = weight;
     }
     Djikatras(edges , n);
 }
 
+// SAMPLE INPUT
 // 8 9 
 // 0 4 90
 // 0 5 50
