@@ -5,6 +5,7 @@ body
 }
 .block
 {
+    margin: 1vw;
     width: 150px;
     height: 150px;
     background: linear-gradient(to top,#333 0%,#666 30%, #333 100%);
@@ -77,6 +78,19 @@ h3{
 {
     width: 80px;
 }
+#responsible{
+    margin: 1vw;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top,#333 0%,#666 30%, #333 100%);
+    box-shadow: inset 2px 2px 5px 2px #333;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-left: 5px;
+
+}
 .rgba-container 
 {
     width: 100px;
@@ -91,7 +105,110 @@ h3{
 }
 #block
 {
+    position: relative;
     width: 150px;
     height: 150px;
     background-color: red;
+}
+@media only screen and (
+    max-width : 760px )
+ {
+        .block{
+        margin: 1vw;
+        width: 20vw;
+        height: 20vh;
+        background: linear-gradient(to top,#333 0%,#666 30%, #333 100%);
+        box-shadow: inset 2px 2px 5px 2px #333;
+        border-radius: 10px;
+        display: inline-block;
+        vertical-align: top;
+        color: #fff;
+        margin-left: 5px;
+
+    }
+    h3{
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .vertical
+    {
+        width: 20vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .vertical input
+    {
+       transform: rotate(90deg);
+       width: 10vw;
+    }
+    .vertical label
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .horizontal
+    {
+        width: 16vw;
+        margin: 0 auto;
+    }    
+    .horizontal input
+    {
+        width: 14vw;
+    }
+    .horizontal label
+    {
+        width: 16vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .center
+    {
+        height: 6vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #ok-shape
+    {
+        height: 6vh;
+        margin-top: 2vh;
+    }
+    .hex-container
+    {
+       margin: 1vh auto 0;
+        width: 13vw;
+    }
+    #hex
+    {
+        width: 10vw;
+    }
+    #responsible{
+        height: 28vw !important;
+    }
+    .rgba-container 
+    {
+        width: 22vw;
+        margin: 0 2vw;
+    }
+    .rgba-container input
+    {
+        width: 12vw;
+    }
+    .container{
+         margin-top: 10vh;
+    }
+    #block
+    {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: red;
+    }
 }
