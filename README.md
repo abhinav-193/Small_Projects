@@ -122,21 +122,30 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Rakshit Agarwal](https://github.com/rakshitweb "View Profile")
 - [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
 - [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
+- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
+- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
+- [Eshaan Anand](https://github.com/eshaananand "View Profile")
+- [Santanu Biswas](https://github.com/SantanuxD "View Profile")
+- [Shivangi-Mohanty](https://github.com/Shivangi-27 "View Profile")
+- [SAGAR SATAPATHY](https://github.com/wishsagarks "View Profile")
+
 
 ---
    
 ## Reviewers
 
+- [Subhayan Das](https://github.com/SubhayanDas08 "View Profile")
 - [Abhinav Mukherjee](https://github.com/abhinav-193 "View Profile")
 - [Animesh Pathak](https://github.com/Sonichigo "View Profile")
 - [Arnab Dan](https://github.com/arnab8335 "View Profile")
-- [Subhayan Das](https://github.com/SubhayanDas08 "View Profile")
+- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
    
 ---
    
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://forthebadge.com)
 <img src = "./utils/hacktober-fest-2021.svg"/>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
    
