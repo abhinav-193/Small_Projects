@@ -145,6 +145,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://forthebadge.com)
 <img src = "./utils/hacktober-fest-2021.svg"/>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
    
