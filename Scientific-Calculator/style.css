@@ -13,8 +13,7 @@ html {
 body {
     height: 100vh;
     background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-   
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .calculator {
@@ -41,6 +40,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     width: 100%;
     ;
 }
+
 
 .operation {
     width: 600px;
