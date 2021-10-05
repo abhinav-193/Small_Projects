@@ -1,4 +1,6 @@
-[![MSC KIIT](https://readme-typing-svg.herokuapp.com?font=Helvetica+2&color=FFFFFF&size=55&center=true&vCenter=true&width=1000&height=100&lines=MSC+KIIT+×+Hacktoberfest+Projects)](https://git.io/typing-svg)
+<img src="./utils/MSAC.jpg" width="110px" style="border-radius : 21%">
+
+# MSC KIIT × Hacktoberfest Projects
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "Repo Maintained")
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20Us-Anything-1abc9c.svg)](https://github.com/MSCKIIT/MSCxHacktoberfest "github.com/akashchouhan16")
@@ -107,6 +109,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Abhinav Mukherjee](https://github.com/abhinav-193 "View Profile")
 - [Akash Chouhan](https://github.com/akashchouhan16 "View Profile")
 - [Anwesha Pati](https://github.com/innatepanda "View Profile")
+- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
 - [Arnab Dan](https://github.com/arnab8335 "View Profile")
 - [Atig Purohit](https://github.com/AtigPurohit "View Profile")
 - [Ayshi Bhowmik](https://github.com/ayshi028 "View Profile")
@@ -118,13 +121,11 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Nishant Giri](https://github.com/nishant-giri "View Profile")
 - [Rakshit Agarwal](https://github.com/rakshitweb "View Profile")
 - [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
-- [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
-- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
-- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
-- [Eshaan Anand](https://github.com/eshaananand "View Profile")
 - [Sagar Satapathy](https://github.com/wishsagarks "View Profile")
+- [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
 - [Santanu Biswas](https://github.com/SantanuxD "View Profile")
 - [Shivangi-Mohanty](https://github.com/Shivangi-27 "View Profile")
+- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
 
 ---
    
