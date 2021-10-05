@@ -16,13 +16,41 @@
 .form-div{
     padding-left: 10px;
     margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .form-check-input{
     margin-left: 10px;
 }
 .next-btn{
-    margin: 10px;
-    padding: 10px 15px 10px 15px;
+    margin: 20px 0px;
+    padding: 10px 20px 10px 20px;
     border: none;
     background-color: skyblue;
+    border-radius: 4px;
+}
+#ques-text{
+    font-size: 24px;
+}
+#time{
+    font-size: 20px;
+}
+.form-check-label{
+    font-size: 18px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+.form-input-option{
+    padding: 10px 20px 10px 20px;
+}
+#timer-text{
+    font-size: 50px;
+}
+.time-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
