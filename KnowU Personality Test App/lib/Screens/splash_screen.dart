@@ -21,7 +21,7 @@ import 'package:project_open_jung/Details/Sentinels/ESTJ/introduction.dart';
 import 'package:project_open_jung/Details/Sentinels/ESTP/introduction.dart';
 import 'package:project_open_jung/Details/Sentinels/ISTJ/introduction.dart';
 import 'package:project_open_jung/Details/Sentinels/ISTP/introduction.dart';
-import 'package:project_open_jung/Details/decoy.dart';
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key key}) : super(key: key);
@@ -113,7 +113,6 @@ getDoubleValuesSFJPR() async {
 
 class _SplashScreenState extends State<SplashScreen> {
   Timer _timer;
-  FlutterLogoStyle _logoStyle = FlutterLogoStyle.markOnly;
 
   _SplashScreenState() {
     _timer = new Timer(const Duration(milliseconds: 4000), () {
@@ -146,7 +145,6 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
       backgroundColor: Colors.white,

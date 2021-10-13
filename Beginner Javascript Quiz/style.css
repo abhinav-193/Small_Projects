@@ -1,0 +1,56 @@
+.login-div{
+    width:400px;
+    margin: auto;
+    margin-top:90px;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 40px;
+}
+.title{
+    color: rgb(137, 137, 255);
+    width:fit-content;
+    margin: auto;
+    font-size: x-large;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+.form-div{
+    padding-left: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-check-input{
+    margin-left: 10px;
+}
+.next-btn{
+    margin: 20px 0px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: skyblue;
+    border-radius: 4px;
+}
+#ques-text{
+    font-size: 24px;
+}
+#time{
+    font-size: 20px;
+}
+.form-check-label{
+    font-size: 18px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+.form-input-option{
+    padding: 10px 20px 10px 20px;
+}
+#timer-text{
+    font-size: 50px;
+}
+.time-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

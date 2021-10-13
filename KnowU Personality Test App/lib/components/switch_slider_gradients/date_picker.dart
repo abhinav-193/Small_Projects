@@ -11,28 +11,10 @@ class _date_pickerState extends State<date_picker> {
   DateTime selectedDate = DateTime.now();
 
 
-  _selectDate(BuildContext context) async {
-    final DateTime picked = await showDatePicker(
-      context: context,
-      initialDate: selectedDate,
-      firstDate: DateTime(2000),
-      lastDate: DateTime(2025),
-      fieldLabelText: 'Booking date',
-      fieldHintText: 'Month/Date/Year',
-    );
-    if (picked != null && picked != selectedDate)
-      setState(
-        () {
-          selectedDate = picked;
-        },
-      );
-  }
 
-  bool _value1 = false;
   bool _value2 = false;
 
   //we omitted the brackets '{}' and are using fat arrow '=>' instead, this is dart syntax
-  void _value1Changed(bool value) => setState(() => _value1 = value);
     void _value2Changed(bool value) => setState(() => _value2 = value);
 
   @override

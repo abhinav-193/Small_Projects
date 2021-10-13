@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
 import 'package:project_open_jung/personality_test/result_calculation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'components.dart';
 
 class ResultPage extends StatefulWidget {

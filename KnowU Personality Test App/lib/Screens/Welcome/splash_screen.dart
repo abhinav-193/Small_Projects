@@ -30,6 +30,7 @@ class _SplashScreen2State extends State<SplashScreen2> {
   }
 }
 
+// ignore: must_be_immutable
 class AfterSplash extends StatelessWidget {
   int i = 0;
   @override
